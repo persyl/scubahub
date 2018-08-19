@@ -10,7 +10,7 @@ namespace scubahub.Controllers
     {
         public ActionResult Index()
         {
-            var context =  new entity_demo_dbEntities();
+            var context =  new EntityDemoDbContext();
             var diver = new Divers
             {
                 Name = "A new diver",

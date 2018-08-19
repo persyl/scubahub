@@ -13,10 +13,10 @@ namespace scubahub
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class entity_demo_dbEntities : DbContext
+    public partial class EntityDemoDbContext : DbContext
     {
-        public entity_demo_dbEntities()
-            : base("name=entity_demo_dbEntities")
+        public EntityDemoDbContext()
+            : base("name=entity_demo_db")
         {
         }
     

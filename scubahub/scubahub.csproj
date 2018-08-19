@@ -157,22 +157,22 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Divers.cs">
-      <DependentUpon>DiversModel.tt</DependentUpon>
+      <DependentUpon>EntityDbModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="DiversModel.Context.cs">
+    <Compile Include="EntityDbModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>DiversModel.Context.tt</DependentUpon>
+      <DependentUpon>EntityDbModel.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="DiversModel.cs">
+    <Compile Include="EntityDbModel.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>DiversModel.tt</DependentUpon>
+      <DependentUpon>EntityDbModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="DiversModel.Designer.cs">
+    <Compile Include="EntityDbModel.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>DiversModel.edmx</DependentUpon>
+      <DependentUpon>EntityDbModel.edmx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -184,15 +184,15 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="DiversModel.Context.tt">
+    <Content Include="EntityDbModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>DiversModel.edmx</DependentUpon>
-      <LastGenOutput>DiversModel.Context.cs</LastGenOutput>
+      <DependentUpon>EntityDbModel.edmx</DependentUpon>
+      <LastGenOutput>EntityDbModel.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="DiversModel.tt">
+    <Content Include="EntityDbModel.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>DiversModel.edmx</DependentUpon>
-      <LastGenOutput>DiversModel.cs</LastGenOutput>
+      <DependentUpon>EntityDbModel.edmx</DependentUpon>
+      <LastGenOutput>EntityDbModel.cs</LastGenOutput>
     </Content>
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -203,12 +203,12 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <EntityDeploy Include="DiversModel.edmx">
+    <EntityDeploy Include="EntityDbModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>DiversModel.Designer.cs</LastGenOutput>
+      <LastGenOutput>EntityDbModel.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <Content Include="DiversModel.edmx.diagram">
-      <DependentUpon>DiversModel.edmx</DependentUpon>
+    <Content Include="EntityDbModel.edmx.diagram">
+      <DependentUpon>EntityDbModel.edmx</DependentUpon>
     </Content>
     <None Include="Properties\PublishProfiles\scubahub - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
