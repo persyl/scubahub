@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "scubahub", "scubahub\scubahub.csproj", "{12C442A5-7429-4C79-A146-DE5F97E74A5E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScubahubDataLayer", "ScubahubDataLayer\ScubahubDataLayer.csproj", "{648292F4-3997-45B7-AF30-E246098FCB44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{12C442A5-7429-4C79-A146-DE5F97E74A5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12C442A5-7429-4C79-A146-DE5F97E74A5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12C442A5-7429-4C79-A146-DE5F97E74A5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{648292F4-3997-45B7-AF30-E246098FCB44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{648292F4-3997-45B7-AF30-E246098FCB44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{648292F4-3997-45B7-AF30-E246098FCB44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{648292F4-3997-45B7-AF30-E246098FCB44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

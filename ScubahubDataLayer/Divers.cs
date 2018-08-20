@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace scubahub
+namespace ScubahubDataLayer
 {
     using System;
     using System.Collections.Generic;

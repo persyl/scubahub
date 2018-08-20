@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ScubahubDataLayer.Data;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -10,15 +11,8 @@ namespace scubahub.Controllers
     {
         public ActionResult Index()
         {
-            var context =  new EntityDemoDbContext();
-            var diver = new Divers
-            {
-                Name = "A new diver",
-                Date = DateTime.Now
-            };
-            context.Divers.Add(diver);
-            context.SaveChanges();
-
+            var dbService = new Service();
+            dbService.AddDiver("One new diver");
             return View();
         }
 

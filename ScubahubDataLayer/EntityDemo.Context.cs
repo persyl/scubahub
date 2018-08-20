@@ -7,16 +7,16 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace scubahub
+namespace ScubahubDataLayer
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class EntityDemoDbContext : DbContext
+    public partial class EntityDemoDb : DbContext
     {
-        public EntityDemoDbContext()
-            : base("name=entity_demo_db")
+        public EntityDemoDb()
+            : base("name=EntityDemoDb")
         {
         }
     
